@@ -1,0 +1,1 @@
+cat $PLAINBOX_PROVIDER_DATA/demo.txt
