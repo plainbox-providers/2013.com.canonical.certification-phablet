@@ -1,0 +1,5 @@
+id: __phablet__
+unit: job
+_summary: All phablet jobs
+plugin: local
+command: cat $PLAINBOX_PROVIDER_UNITS/jobs.txt
