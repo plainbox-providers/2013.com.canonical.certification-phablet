@@ -1,0 +1,8 @@
+id: click
+unit: job
+_summary: Manifest of installed click packages
+_description:
+ Run 'click list' and transform the result to a list of resource objects
+plugin: resource
+flags: remote preserve-locale
+command: click-list-to-resource

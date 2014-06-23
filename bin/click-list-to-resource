@@ -1,0 +1,7 @@
+#!/bin/sh
+click list | 
+while read NAME VERSION; do
+    echo "name: $NAME"
+    echo "version: $VERSION"
+    echo
+done
